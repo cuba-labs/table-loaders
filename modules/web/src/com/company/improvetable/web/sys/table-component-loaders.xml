@@ -1,0 +1,16 @@
+<components xmlns="http://schemas.haulmont.com/cuba/components.xsd">
+    <component>
+        <tag>table</tag>
+        <componentLoader>com.company.improvetable.web.sys.CustomTableLoader</componentLoader>
+    </component>
+
+    <component>
+        <tag>groupTable</tag>
+        <componentLoader>com.company.improvetable.web.sys.CustomGroupTableLoader</componentLoader>
+    </component>
+
+    <component>
+        <tag>treeTable</tag>
+        <componentLoader>com.company.improvetable.web.sys.CustomTreeTableLoader</componentLoader>
+    </component>
+</components>
